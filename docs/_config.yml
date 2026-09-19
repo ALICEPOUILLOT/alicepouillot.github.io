@@ -28,7 +28,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: dev-portfolio-blog
+remote_theme: dev-portfolio-blog
 plugins:
   - jekyll-feed
 
