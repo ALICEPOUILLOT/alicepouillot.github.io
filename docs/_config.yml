@@ -24,11 +24,10 @@ description: >-
   Personal page of soon-to-be PhD candidate in behavioural ecology. CV, current and past projects.
 baseurl: "docs" # the subpath of your site, e.g. /blog
 url: "https://alicepouillot.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+
 
 # Build settings
-remote_theme: dev-portfolio-blog
+theme: dev-portfolio-blog
 plugins:
   - jekyll-feed
 
