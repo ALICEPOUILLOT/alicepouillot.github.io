@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-home_text: A soon-to-be PhD candidate in behavioural ecology 
-title: Alice Pouillot
+home_text: A student in behavioural ecology 
+title: Alice Pouillot | Home
 ---
