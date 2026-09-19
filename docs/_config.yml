@@ -27,7 +27,7 @@ url: "https://alicepouillot.github.io/" # the base hostname & protocol for your 
 author_name: Alice Pouillot
 
 # Build settings
-theme: dev-portfolio-blog
+remote_theme: rohitjain00/dev-portfolio-blog
 plugins:
   - jekyll-feed
 
@@ -165,6 +165,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-minifier
   - jemoji
+  - jekyll-remote-theme
 
 google_analytics: "UA-114665281-1"
 
