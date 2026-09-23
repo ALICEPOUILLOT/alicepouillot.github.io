@@ -1,1 +1,82 @@
+<!-- 
+  crimson violet : #480F2E
+  dark rapsberry : #87255B
+  lilac : #BBA0CA 
+  lavender : #EFE8FE
+  vanilla : #FEFCB1
+  light yellow : #FFFEE4-->
+  
+
+
+.menu {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  font-family: verdana; 
+  font-size:x-large; 
+  color : #87255B;
+  background-color: #EFE8FE;
+}
+
+.who {
+  border-radius: 25px;
+  background-color: #FEFCB1;
+  padding: 20px 40px;
+}
+
+.texte {
+  background-color : #FFFEE4;
+  margin: 10px 30px; 
+  border-radius: 25px;
+  font-size:large; 
+}
+
+  
+body {
+  margin: 15px 30px; 
+  font-family:verdana;
+  color : #480F2E
+     }
+
+  
+h1 {
+  color: #87255B;
+  font-family: verdana;
+  font-size: 300%;
+}
+
+h2 {
+  color: #87255B;
+  font-family: verdana;
+  font-size: 200%;
+}
+
+h3 {
+  color: #480F2E;
+  font-size: 160%;
+}
+
+  
+p {
+  text-indent:30px;
+  color: #480F2E;
+  font-family: verdana;
+  font-size: 130%;
+}
+
+a:link {
+  color: #480F2E;
+  text-decoration: none;
+}
+
+a:hover {
+  color:  #BBA0CA;
+  text-decoration: none;
+}
+
+hr {
+  color: #480F2E;
+}
 
