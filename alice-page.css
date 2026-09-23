@@ -76,6 +76,11 @@ a:hover {
   text-decoration: none;
 }
 
+a:visited {
+  color:  #87255B;
+  text-decoration: none;
+}
+
 hr {
   color: #480F2E;
 }
