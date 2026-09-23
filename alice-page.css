@@ -29,6 +29,7 @@
 .texte {
   background-color : #FFFEE4;
   margin: 10px 30px; 
+  padding : 30px
   border-radius: 25px;
   font-size:large; 
 }
