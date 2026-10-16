@@ -50,6 +50,21 @@
     box-sizing: border-box;
 }
 
+
+.image-proj {
+ display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    margin: 20px 0;
+}
+
+
+
+.text-proj {
+  flex: 1;
+  min-width: 0;
+}
+
   
 body {
   margin: 15px 30px; 
