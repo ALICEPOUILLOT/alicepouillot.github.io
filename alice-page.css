@@ -43,6 +43,7 @@
 
 .texte {
     background-color: #FFFEE4;
+    min-height: 520px;
     border-radius: 25px;
     padding: 20px 30px;
     width: 100%;
