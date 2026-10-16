@@ -79,6 +79,7 @@ h2 {
 }
 
 proj {
+  display: block;
   margin-top: 30px;
   margin-bottom: 15px;
   color: #87255B;
@@ -86,6 +87,7 @@ proj {
 }
 
 lieu {
+  display: block;
   margin-bottom: 30px;
   color: #480F2E;
   font-style: italic;
