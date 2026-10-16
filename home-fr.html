@@ -30,43 +30,24 @@
   
 </head>
 
-  
+ <script>
+fetch('header-fr.html')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Impossible de charger header.html');
+        }
 
-<!-- ::::::::::::::::::::::: BODY :::::::::::::::::::::: -->
+        return response.text();
+    })
+    .then(html => {
+        document.getElementById('header').innerHTML = html;
+    })
+    .catch(error => console.error(error));
+</script>
   
 <body>
 
-
-
-  <!-- ::::::::::::::: Header :::::::::::::: -->
-  
-<header>
-  
-<div class="who"> 
-<img align="right" src="Alice.jpg" alt="If you see this I failed to display a picture of myself :(" width="240px" height="320px" style="clip-path: circle()"> 
-
-<h1> Alice Pouillot </h1>
-<h2>Étudiante en <a href = "https://fr.wikipedia.org/wiki/%C3%89cologie_comportementale" title="Wikipédia">écologie comportementale</a> </h2>
-
-
-<address>
-Envoyez moi un mail à l'adresse <a href="mailto:alice(.)pouillot(at)ens-lyon.fr;" style="color:#87255B;"> alice(.)pouillot(at)ens-lyon.fr </a>
-</address>
-  
-</div>
-
-
-  
-</header>  
-
-  
-
-  <!-- ::::::::::::::: Menu :::::::::::::: -->
-  
-<div class = "menu" align="center"> 
-<a href="home-fr.html">Présentation</a>     |     <a href="projects-fr.html">Recherche</a>     |     <a href="meraboire-fr.html">Médiation</a>     |     <a href="CV-fr.pdf"> CV </a>
-</div>
-<hr>
+  <div id="header"></div>
 
 
   
