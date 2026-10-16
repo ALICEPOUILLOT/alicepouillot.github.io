@@ -81,11 +81,14 @@ h2 {
 }
 
 proj {
+  padding-top: 30px;
+  padding-bottom: 15px;
   color: #87255B;
   font-size: 140%;
 }
 
 lieu {
+  padding-bottom: 30px;
   color: #480F2E;
   font-style: italic;
 }
