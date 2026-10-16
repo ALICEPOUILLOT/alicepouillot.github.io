@@ -31,7 +31,23 @@
   
 </head>
 
-  
+
+
+<script>
+fetch('header-en.html')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Impossible de charger header.html');
+        }
+
+        return response.text();
+    })
+    .then(html => {
+        document.getElementById('header').innerHTML = html;
+    })
+    .catch(error => console.error(error));
+</script>
+
 
 <!-- ::::::::::::::::::::::: BODY :::::::::::::::::::::: -->
   
@@ -41,7 +57,7 @@
 
   <!-- ::::::::::::::: Header :::::::::::::: -->
   
-<header>
+<!-- <header>
   
 <div class="who"> 
 <img align="right" src="Alice.jpg" alt="If you see this I failed to display a picture of myself :(" width="240px" height="320px" style="clip-path: circle()"> 
@@ -57,15 +73,17 @@ E-mail me at: <a href="mailto:alice(.)pouillot(at)ens-lyon.fr;">alice(.)pouillot
 </div>
 
   
-</header>  
+</header>  -->
 
   
   <!-- ::::::::::::::: Menu :::::::::::::: -->
   
-<div class = "menu" align="center"> 
+<!-- <div class = "menu" align="center"> 
 <a href="home-en.html">Home</a>     |     <a href="projects-en.html">Projects</a>     |     <a href="CV-en.pdf"> Resume </a>
 </div>
-<hr>
+<hr>-->
+  
+<div id="header"></div>
 
 
   
