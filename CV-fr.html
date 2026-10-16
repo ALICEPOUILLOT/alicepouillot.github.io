@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html 
+  lang="en">
+  
+<head>
+<title>Alice Pouillot | Personal Webpage</title>
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="alice-page.css">
+  
+<!-- 
+  crimson violet : #480F2E
+  dark rapsberry : #87255B
+  lilac : #BBA0CA 
+  lavender : #EFE8FE
+  vanilla : #FEFCB1-->
+
+<style>
+.menu {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  font-family: verdana; 
+  font-size:x-large; 
+  color : #87255B;
+  background-color: #EFE8FE;
+}
+</style>
+  
+</head>
+
+  
+<script>
+fetch('header-fr.html')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Impossible de charger header.html');
+        }
+
+        return response.text();
+    })
+    .then(html => {
+        document.getElementById('header').innerHTML = html;
+    })
+    .catch(error => console.error(error));
+</script>
+
+
+<!-- ::::::::::::::::::::::: BODY :::::::::::::::::::::: -->
+  
+<body>
+
+<div id="header"></div>
+ 
+
+  <!-- ::::::::::::::: Actual body :::::::::::::: -->
+
+<div style="
+    background-image: url('turing-palette.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    padding: 20px 40px;
+    min-height: 1000px;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+">
+
+    <!-- Bouton de téléchargement -->
+    <a href="CV-test.pdf" download
+       style="
+           display: block;
+           width: fit-content;
+           margin: 0 auto 20px auto;
+           text-decoration: none;
+       ">
+
+        <div style="
+            width: 400px;
+            min-height: 60px;
+            box-sizing: border-box;
+            background-color: #87255B;
+            border-radius: 25px;
+            padding: 20px;
+            text-align: center;
+        ">
+            <p style="
+                color: #EFE8FE;
+                margin: 0;
+            ">
+                Télécharger le CV 🔍
+            </p>
+        </div>
+
+    </a>
+
+    <!-- Aperçu du CV -->
+    <iframe
+        src="CV-test.pdf"
+        title="CV"
+        width="900px"
+        height="600px"
+        style="
+            display: block;
+            margin: 0 auto;
+            border: none;
+            max-width: 100%;
+        ">
+    </iframe>
+
+</div>
+
+
+
+
+
+  
+</body>
+
+<footer>
+  <a href="projects-fr.html">Voir le site en français</a>
+</footer>
+  
+</html>
