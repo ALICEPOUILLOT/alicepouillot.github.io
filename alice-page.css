@@ -56,7 +56,7 @@
 
 .image-proj {
  display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 25px;
     margin: 20px 0;
 }
