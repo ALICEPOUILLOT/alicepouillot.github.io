@@ -48,6 +48,9 @@
     padding: 40px;
     width: 60%;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
