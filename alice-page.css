@@ -39,6 +39,8 @@
     padding: 40px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
 }
 
 .texte {
@@ -48,6 +50,7 @@
     padding: 40px;
     width: 60%;
     box-sizing: border-box;
+    text-align: justify;
 }
 
 
@@ -63,6 +66,7 @@
 .text-proj {
   flex: 1;
   min-width: 0;
+  text-align: justify;
 }
 
   
@@ -114,6 +118,7 @@ p {
   color: #480F2E;
   font-family: verdana;
   font-size: 130%;
+  text-align: justify;
 }
 
 a:link {
